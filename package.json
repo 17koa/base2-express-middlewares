@@ -1,0 +1,41 @@
+{
+  "name": "base2-express-middlewares",
+  "version": "1.0.0",
+  "description": "base2-express-middlewares",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/supervisor ./examples/app.js",
+    "test": "./node_modules/.bin/mocha -u bdd",
+    "p": "npm publish .",
+    "preinstall": "npm install --save base2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i5ting/base2.git"
+  },
+  "author": "i5ting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i5ting/base2/issues"
+  },
+  "homepage": "https://github.com/i5ting/base2#readme",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "deep-extend": "^0.4.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "mount-routes": "^1.0.5",
+    "mount_plugin": "^1.0.0",
+    "require-directory": "^2.1.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0",
+    "supervisor": "^0.9.1"
+  }
+}
